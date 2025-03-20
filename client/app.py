@@ -2,7 +2,7 @@ from cassandra.cluster import Cluster
 import uuid
 
 # Connexion à Cassandra
-cluster = Cluster(['localhost'])
+cluster = Cluster(['172.26.13.215'])
 session = cluster.connect()
 
 print(str(session))
